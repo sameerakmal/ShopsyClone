@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/63147.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    padding-top: 57px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.bigger_div{
+    width:98vw;
+    height:75vh;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.left_side{
+    /* border: 2px dashed pink; */
+    height: 430px;
+    width: 350px;
+    position: absolute;
+    top: 10vh;
+    left: 100px;
+}
+.left_top{
+    /* border:2px solid green; */
+    height: 125px;
+    width: 320px;
+    font-size: 3.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    color: white;
+    
+}
+.left_mid{
+    /* border: 2px solid yellow; */
+    height:170px;
+    width: 320px;
+    margin-top: 50px;
+    font-size: 1.7em;
+    color: white;
+    display: flex;
+    
+}
+.left_down{
+    /* border: 2px solid pink; */
+    height: 73px;
+    display: flex;
+}
+.left_down_left{
+    /* border: 2px solid rgb(0, 4, 255); */
+    height: 70px;
+    width: 175px;
+    
+}
+.left_down_right{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 175px;
+}
+
+ul {
+    list-style: none; 
+}
+ul li:before {
+    content: '✓'; 
+}
+.ytube{
+    /* border: 2px solid lightblue; */
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+
+}
+.bigger_div2{
+    /* border: 2px solid blue; */
+    height: 600px;
+    width: 98vw;
+    position: relative;
+    top: 65vh;
+}
+.ph1{
+    /* border:2px dashed green; */
+    position: absolute;
+    height: 75vh;
+    left: 1vw;
+    width: 23vw;
+}
+
+.ph2{
+    /* border: 2px dashed pink; */
+    position: absolute;
+    height: 75vh;
+    width:23vw;
+    left: 25vw;
+}
+.ph3{
+    /* border: 2px dashed yellow; */
+    position: absolute;
+    height: 75vh;
+    width:23vw;
+    left: 49vw;
+}
+.ph4{
+    /* border: 2px dashed paleturquoise; */
+    position: absolute;
+    height: 75vh;
+    width:23vw;
+    left: 73vw;
+}
+.getshopsy{
+    /* border: 2px solid green; */
+    position: relative;
+    width: 25vw;
+    left: 40vw;
+    height: 100px;
+    top: 90vh;
+}
+.bigger_div3{
+    /* border: 2px solid slategray; */
+    position: relative;
+    top: 110vh;
+    height: 1080px;
+}
+.whyshopsy{
+    /* border: 2px solid firebrick; */
+    position: absolute;
+    width: 25vw;
+    left: 33vw;
+    height: 10vh;
+}
+.pic1{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 30vh;
+    height: 50vh;
+    width: 20vw;
+    left: 5vw;
+}
+.pic2{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 30vh;
+    height: 50vh;
+    width: 20vw;
+    left: 35vw;
+}
+.pic3{
+    
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 30vh;
+    height: 50vh;
+    width: 20vw;
+    left: 65vw;
+    
+}
+.white_div{
+    /* border: 3px solid greenyellow; */
+    height: 1000px;
+    /* width: 1000px; */
+    position: relative;
+    height: 100vh;
+    top: 300px;
+    width: 98.5vw;
+    background-color: white;
+}
+.aajshopsy{
+    /* border: 2px solid pink; */
+    height: 450px ;
+    width: 30vw ;
+    position: absolute;
+    left: 10vw;
+    top: 5vw;
+}
+.sara{
+    /* border: 2px solid green; */
+    height: 450px ;
+    width: 30vw ;
+    position: absolute;
+    left: 60vw;
+    top: 3vw; 
+}
+.dowgp{
+    /* border: 2px solid yellow; */
+    height: 100px ;
+    width: 30vw ;
+    position: absolute;
+    left: 17vw;
+    top: 30vw;
+}
+.endtext{
+    /* border: 2px solid blue; */
+    height: 100px ;
+    width: 30vw ;
+    position: absolute;
+    left: 10vw;
+    top: 37vw;
+}
+.terms{
+    /* border: 2px solid green; */
+    height: 50px ;
+    width: 10vw ;
+    position: absolute;
+    font-size: 1.3em;
+}
+.privacy{
+    /* border: 2px solid burlywood; */
+    height: 50px ;
+    width: 10vw ;
+    left: 10vw;
+    position: absolute;
+    font-size: 1.3em;
+}
+.contact{
+    /* border: 2px solid green; */
+    height: 50px ;
+    width: 30vw ;
+    top: 50px ;
+    position: absolute;
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+}
